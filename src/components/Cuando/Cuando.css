@@ -1,0 +1,86 @@
+#containerCuando {
+	height: 50vh;
+	background-color: var(--colorverde1);
+	color: var(--colorclaro);
+}
+
+.containerLinea {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 1%;
+}
+
+.linea {
+	height: 2px;
+	background-color: var(--colorclaro);
+	width: 80%;
+}
+.containerFecha {
+	height: 49%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.iconCalendar {
+	height: 50px;
+	margin: 15px;
+}
+
+.cuandoFecha {
+	margin: 0;
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+.fechaCumple {
+	font-size: 19px;
+}
+.textFaltan {
+	font-size: 20px;
+}
+.containerFaltanCuenta {
+	height: 49%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.containerCuentaRegresiva {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.containerNumerosCuenta {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.numerosCuentas {
+	font-size: 45px;
+}
+.textoCuenta {
+	font-size: 12px;
+	margin: 0;
+}
+
+.containerCirculoCuenta {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.circulitosCuenta {
+	height: 8px;
+	width: 8px;
+	border-radius: 20px;
+	background-color: var(--colorclaro);
+	position: relative;
+	bottom: 13px;
+}

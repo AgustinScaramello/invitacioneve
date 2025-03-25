@@ -1,0 +1,17 @@
+:root {
+	--colorverde1: #386641;
+	--colorverde2: #6a994e;
+	--colorverde3: #a7c957;
+	--colornegro: #464646;
+	--colorclaro: #f2e8cf;
+	--colorbordo: #bc4749;
+}
+
+body {
+	font-family: "DM Sans", sans-serif;
+	color: var(--colornegro);
+}
+
+.fuenteCursiva {
+	font-family: "Lavishly Yours", cursive;
+}

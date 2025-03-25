@@ -1,0 +1,41 @@
+#containerEventoFondo {
+	background-image: url("../../utils/fotoEve1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#containerEvento {
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	position: relative;
+}
+
+#containerTituloEvento {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	align-items: center;
+	bottom: 120px;
+}
+
+#nombreEvelin {
+	font-size: 110px;
+}
+
+#tituloMisXv {
+}
+
+#corona {
+	width: 110px;
+	position: relative;
+	top: 65px;
+	left: 80px;
+	transform: rotate(25deg);
+}
