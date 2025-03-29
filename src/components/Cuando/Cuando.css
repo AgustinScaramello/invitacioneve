@@ -1,7 +1,15 @@
-#containerCuando {
-	height: 50vh;
+#containerGeneralCuando {
+	height: 100%;
 	background-color: var(--colorverde1);
 	color: var(--colorclaro);
+}
+
+.containerCuando {
+	height: 24%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .containerLinea {
@@ -15,13 +23,6 @@
 	height: 2px;
 	background-color: var(--colorclaro);
 	width: 80%;
-}
-.containerFecha {
-	height: 49%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 }
 
 .iconCalendar {
@@ -40,13 +41,6 @@
 }
 .textFaltan {
 	font-size: 20px;
-}
-.containerFaltanCuenta {
-	height: 49%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 }
 
 .containerCuentaRegresiva {
@@ -83,4 +77,60 @@
 	background-color: var(--colorclaro);
 	position: relative;
 	bottom: 13px;
+}
+
+#containerDresscodeGeneral {
+	height: 50vh;
+	background-color: var(--colorverde1);
+	color: var(--colorclaro);
+}
+
+.iconOpendoor,
+.iconDresscode {
+	height: 50px;
+	margin: 15px;
+}
+
+.titulOpendoor,
+.titulDresscode {
+	margin: 0;
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+.horaOpendoor {
+	font-size: 23px;
+}
+
+.horaDresscode {
+	font-size: 19px;
+}
+
+/* Añade estos estilos a tu archivo Cuando.css existente si es necesario */
+
+/* Asegúrate de que los contenedores tengan posición relativa para las animaciones */
+.containerCuando {
+	position: relative;
+}
+
+/* Mejora el efecto hover en los textos */
+.fechaCumple,
+.horaOpendoor,
+.horaDresscode {
+	transition: all 0.3s ease;
+}
+
+/* Estilo para los números de la cuenta regresiva */
+.numerosCuentas {
+	will-change: transform;
+}
+
+/* Mejora la apariencia de los círculos separadores */
+.circulitosCuenta {
+	will-change: opacity;
+}
+
+/* Asegúrate de que las líneas tengan un origen de transformación correcto */
+.containerLinea {
+	transform-origin: center left;
 }

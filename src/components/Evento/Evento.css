@@ -27,9 +27,11 @@
 
 #nombreEvelin {
 	font-size: 110px;
+	z-index: 20000000000000000;
 }
 
 #tituloMisXv {
+	z-index: 20000000000000000;
 }
 
 #corona {
@@ -38,4 +40,52 @@
 	top: 65px;
 	left: 80px;
 	transform: rotate(25deg);
+	z-index: 2000000000000000000000;
+}
+
+/* Añade estos estilos a tu archivo Evento.css existente */
+
+.sparkles-container {
+	position: relative;
+	display: inline-block;
+}
+
+.sparkle-effect {
+	position: absolute;
+	top: -20%;
+	left: -20%;
+	width: 140%;
+	height: 140%;
+	background: radial-gradient(circle, rgba(255, 215, 0, 0.6) 0%, rgba(255, 215, 0, 0) 70%);
+	border-radius: 50%;
+	pointer-events: none;
+	z-index: -1;
+}
+
+.confetti-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	z-index: 10;
+	overflow: hidden;
+}
+
+.confetti-piece {
+	position: absolute;
+	will-change: transform;
+}
+
+/* Asegúrate de que el contenedor tenga posición relativa para los efectos */
+#containerEventoFondo {
+	position: relative;
+	overflow: hidden;
+}
+
+/* Mejora el efecto hover en los textos */
+#nombreEvelin,
+#tituloMisXv {
+	transition: all 0.3s ease;
 }

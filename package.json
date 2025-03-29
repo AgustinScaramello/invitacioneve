@@ -12,6 +12,7 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "leaflet": "^1.9.4",
+    "motion": "^12.6.2",
     "react": "^19.0.0-rc.1",
     "react-countdown": "^2.3.6",
     "react-dom": "^19.0.0-rc.1",
