@@ -8,6 +8,7 @@ import videoGlitter from "./utils/videoGlitter1.mp4"
 import "leaflet/dist/leaflet.css"
 import "./index.css"
 import { AudioPlayer } from "./components/AudioPlayer/AudioPlayer"
+import { Regalo } from "./components/Regalo/Regalo"
 
 function App() {
 	return (
@@ -29,6 +30,10 @@ function App() {
 
 			<ParallaxSection id="donde">
 				<Donde />
+			</ParallaxSection>
+
+			<ParallaxSection id="regalo">
+				<Regalo />
 			</ParallaxSection>
 
 			<ParallaxSection id="asistencia">

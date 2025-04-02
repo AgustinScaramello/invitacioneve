@@ -1,0 +1,61 @@
+.containeRegaloGeneral {
+	height: 100vh;
+	color: var(--colorclaro);
+	display: flex;
+	flex-direction: column;
+	text-shadow: 1px 1px 6px #0000007d;
+	filter: drop-shadow(0px 1px 4px #0000003b);
+	justify-content: space-evenly;
+}
+
+.containerFrase,
+.containerRegalo {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.containerLineaRegalo {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.iconRegalo {
+	height: 50px;
+	margin: 15px;
+}
+
+.textoRegalo {
+	margin: 0;
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+.parrafoRegalo {
+	font-size: 13px;
+	width: 80%;
+}
+
+.btnRegalo {
+	background-color: transparent;
+	height: 50px;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	text-decoration: none;
+	color: var(--colorclaro);
+	font-size: 13px;
+	border: 3px solid var(--colorclaro);
+	margin-top: 15px;
+}
+
+.frase {
+	font-size: 19px;
+	width: 80%;
+}
