@@ -3,7 +3,7 @@ import { Cuando } from "./components/Cuando/Cuando"
 import { Donde } from "./components/Donde/Donde"
 import { Evento } from "./components/Evento/Evento"
 import ParallaxSection from "./utils/ParallaxSection"
-import videoGlitter from "./utils/videoGlitter.mp4"
+import videoGlitter from "./utils/videoGlitter1.mp4"
 
 import "leaflet/dist/leaflet.css"
 import "./index.css"

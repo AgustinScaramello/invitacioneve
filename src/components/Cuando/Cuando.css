@@ -1,6 +1,8 @@
 #containerGeneralCuando {
 	height: 100%;
 	color: var(--colorclaro);
+	text-shadow: 1px 1px 6px #0000007d;
+	filter: drop-shadow(0px 1px 4px #0000003b);
 }
 
 .containerCuando {

@@ -35,7 +35,8 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	color: white;
+	color: var(--colorclaro);
+	text-shadow: 1px 1px 6px #0000007d;
 	position: relative;
 }
 
@@ -64,6 +65,7 @@
 	left: 80px;
 	transform: rotate(25deg);
 	z-index: 2000000000000000000000;
+	filter: drop-shadow(0px 1px 4px #0000003b);
 }
 
 /* Añade estos estilos a tu archivo Evento.css existente */

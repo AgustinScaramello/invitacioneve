@@ -86,17 +86,10 @@ html {
 #cuando,
 #donde {
 	position: relative;
-	background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
-}
-
-#cuando,
-#donde {
-	position: relative;
-	background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
 }
 
 #evento,
 #asistencia {
 	position: relative;
-	background: rgba(70, 70, 70, 1); /* Fondo semi-transparente */
+	background: black; /* Fondo semi-transparente */
 }
