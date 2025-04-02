@@ -1,13 +1,36 @@
 #containerEventoFondo {
-	background-image: url("../../utils/fotoEve1.jpg");
+	background-image: url("../../utils/fotoEve.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
+#containerEventoFondoSinFondo {
+	background-image: url("../../utils/fotoEveSinFondo.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 1000000;
+	filter: brightness(65%); /* Reduce el brillo */
+	height: 100vh;
+	width: 100vw;
+}
+
+.background-video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	opacity: 0.5;
+}
+
 #containerEvento {
 	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -44,23 +67,6 @@
 }
 
 /* Añade estos estilos a tu archivo Evento.css existente */
-
-.sparkles-container {
-	position: relative;
-	display: inline-block;
-}
-
-.sparkle-effect {
-	position: absolute;
-	top: -20%;
-	left: -20%;
-	width: 140%;
-	height: 140%;
-	background: radial-gradient(circle, rgba(255, 215, 0, 0.6) 0%, rgba(255, 215, 0, 0) 70%);
-	border-radius: 50%;
-	pointer-events: none;
-	z-index: -1;
-}
 
 .confetti-container {
 	position: fixed;

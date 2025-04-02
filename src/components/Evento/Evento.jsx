@@ -1,32 +1,14 @@
-"use client"
-
 import { motion } from "framer-motion"
 import { useRef } from "react"
 import { useInView } from "framer-motion"
 import corona from "../../utils/corona.png"
+import videoMariposa from "../../utils/videoBrillos.mp4"
 
 import "./Evento.css"
 
 // Componente para el efecto de brillo/resplandor
 const Sparkles = ({ children }) => {
-	return (
-		<div className="sparkles-container">
-			{children}
-			<motion.div
-				className="sparkle-effect"
-				animate={{
-					opacity: [0, 0.5, 0, 0.7, 0],
-					scale: [1, 1.2, 1.1, 1.3, 1],
-				}}
-				transition={{
-					duration: 3,
-					repeat: Number.POSITIVE_INFINITY,
-					repeatType: "loop",
-					times: [0, 0.25, 0.5, 0.75, 1],
-				}}
-			/>
-		</div>
-	)
+	return <div className="sparkles-container">{children}</div>
 }
 
 export const Evento = () => {
@@ -159,13 +141,25 @@ export const Evento = () => {
 
 	return (
 		<motion.div id="containerEventoFondo" ref={containerRef} initial="hidden" animate={isInView ? "visible" : "hidden"} variants={containerVariants}>
-			<Confetti />
+			<video autoPlay loop muted playsInline className="background-video">
+				<source src={videoMariposa} type="video/mp4" />
+				Tu navegador no soporta videos en HTML5.
+			</video>
+			<motion.div
+				id="containerEventoFondoSinFondo"
+				ref={containerRef}
+				initial="hidden"
+				animate={isInView ? "visible" : "hidden"}
+				variants={containerVariants}
+			></motion.div>
+
+			{/* <Confetti /> */}
 
 			<motion.div
 				id="containerEvento"
 				initial={{ background: "rgba(255, 255, 255, 0)" }}
 				animate={{
-					background: isInView ? "rgba(0, 0, 0, 0.5)" : "rgba(255, 255, 255, 0)",
+					background: isInView ? "rgba(0, 0, 0, 0)" : "rgba(255, 255, 255, 0)",
 				}}
 				transition={{ delay: 0.5, duration: 1.5 }}
 			>

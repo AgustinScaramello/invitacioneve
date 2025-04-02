@@ -1,7 +1,6 @@
 #containerDondeGeneral {
 	height: 100vh;
-	background-color: var(--colorclaro);
-	color: var(--colornegro);
+	color: var(--colorclaro);
 	display: flex;
 	flex-direction: column;
 }
