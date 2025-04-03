@@ -142,7 +142,7 @@ export const Evento = () => {
 
     return (
         <motion.div id="containerEventoFondo" ref={containerRef} initial="hidden" animate={isInView ? "visible" : "hidden"} variants={containerVariants}>
-            <Scrollear idDestino="containerGeneralCuando" />
+            <Scrollear />
 
             <video autoPlay loop muted playsInline className="background-video">
                 <source src={videoMariposa} type="video/mp4" />

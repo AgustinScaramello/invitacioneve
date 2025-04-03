@@ -114,7 +114,7 @@ export const Donde = ({ audioRef }) => {
 
     return (
         <div id="containerDondeGeneral">
-            <Scrollear idDestino="containeRegaloGeneral" />
+            <Scrollear />
             <motion.div id="containerDonde" ref={titleRef} initial="hidden" animate={isTitleInView ? "visible" : "hidden"}>
                 <motion.img className="iconDonde" src={location} alt="" variants={iconVariants} />
                 <motion.h1 className="tituloDonde" variants={titleVariants}>

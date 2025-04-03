@@ -5,7 +5,7 @@ import "./Regalo.css"
 export const Regalo = () => {
     return (
         <div id="containeRegaloGeneral" className="containeRegaloGeneral">
-            <Scrollear idDestino="containerAsistenciaGeneral" />
+            <Scrollear />
             <div className="containerRegalo">
                 <img src={regalo} alt="" className="iconRegalo" />
                 <h1 className="textoRegalo">REGALOS</h1>

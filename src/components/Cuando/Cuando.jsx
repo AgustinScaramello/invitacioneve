@@ -292,7 +292,7 @@ export const Cuando = () => {
 
     return (
         <div id="containerGeneralCuando">
-            <Scrollear idDestino="containerDondeGeneral" />
+            <Scrollear />
             {/* Primera sección - Fecha */}
             <motion.div className="containerCuando" ref={sectionRef1} initial="hidden" animate={isInView1 ? "visible" : "hidden"}>
                 <motion.img
