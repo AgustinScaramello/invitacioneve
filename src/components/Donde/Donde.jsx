@@ -116,7 +116,7 @@ export const Donde = ({ audioRef }) => {
 			<motion.div id="containerDonde" ref={titleRef} initial="hidden" animate={isTitleInView ? "visible" : "hidden"}>
 				<motion.img className="iconDonde" src={location} alt="" variants={iconVariants} />
 				<motion.h1 className="tituloDonde" variants={titleVariants}>
-					¿DONDE?
+					¿DÓNDE?
 				</motion.h1>
 				<motion.h1 className="horaDonde" variants={addressVariants}>
 					AV. LA PLATA 2370 - QUIMES
@@ -138,7 +138,7 @@ export const Donde = ({ audioRef }) => {
 
 				<motion.div className="btnGoogleMaps" variants={buttonVariants} whileHover="hover" whileTap={{ scale: 0.95 }}>
 					<a href="https://maps.app.goo.gl/Vkrm9Q9WgTjezym8A" className="urlBtnGoogleMaps" onClick={apagarMusica}>
-						COMO LLEGAR CON GOOGLE MAPS{" "}
+						CÓMO LLEGAR CON GOOGLE MAPS{" "}
 						<svg height="25" viewBox="14.32 4.87961494 37.85626587 52.79038506" xmlns="http://www.w3.org/2000/svg">
 							<path d="m37.34 7.82c-1.68-.53-3.48-.82-5.34-.82-5.43 0-10.29 2.45-13.54 6.31l8.35 7.02z" fill="#1a73e8" />
 							<path d="m18.46 13.31a17.615 17.615 0 0 0 -4.14 11.36c0 3.32.66 6.02 1.75 8.43l10.74-12.77z" fill="#ea4335" />

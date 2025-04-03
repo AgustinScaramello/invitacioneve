@@ -304,7 +304,7 @@ export const Cuando = () => {
 					}}
 				/>
 				<motion.h1 className="cuandoFecha" variants={titleVariants}>
-					¿CUANDO?
+					¿CUÁNDO?
 				</motion.h1>
 				<motion.h1
 					className="fechaCumple"
@@ -350,7 +350,7 @@ export const Cuando = () => {
 					}}
 				/>
 				<motion.h1 className="tituloOpendoor" variants={titleVariants}>
-					OPEN DOORS
+					HORARIO
 				</motion.h1>
 				<motion.h1
 					className="horaOpendoor"

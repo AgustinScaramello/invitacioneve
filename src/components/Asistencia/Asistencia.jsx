@@ -65,7 +65,7 @@ export const Asistencia = ({ audioRef }) => {
 			</video>
 			<div id="containerAsistencia" className="animation-container">
 				<img className="iconAsistencia animate-item" src={mail || "/placeholder.svg"} alt="" />
-				<h1 className="tituloAsistencia animate-item">¿VENIS?</h1>
+				<h1 className="tituloAsistencia animate-item">¿VENÍS?</h1>
 				<h1 className="mensajeAsistencia animate-item">!TE ESPERO PARA FESTEJAR JUNTOS!</h1>
 				<h1 className="mensajeAsistencia2 animate-item">ES NECESARIO CONFIRMES ASISTENCIA ANTES DEL 20/04</h1>
 			</div>
@@ -77,7 +77,7 @@ export const Asistencia = ({ audioRef }) => {
 					target="_blank"
 					onClick={apagarMusica}
 				>
-					🎉 SI CONFIRMO 🎉
+					🎉 SÍ, CONFIRMO 🎉
 				</a>
 				<a
 					className="containerbtnAsistencia animate-item btn-no-asistire"
