@@ -17,10 +17,9 @@ import cancion from "./utils/cancion.mp3"
 function App() {
 	const [isLoading, setIsLoading] = useState(true)
 	const [showContent, setShowContent] = useState(false)
-	const audioRef = useRef(new Audio(cancion)) // Creamos el audio
+	const audioRef = useRef(new Audio(cancion))
 
 	useEffect(() => {
-		// Simulación de carga
 		setTimeout(() => setIsLoading(false), 2000)
 	}, [])
 
@@ -29,7 +28,6 @@ function App() {
 		audioRef.current.play().catch((err) => console.log("Error al reproducir audio:", err))
 	}
 
-	// 🟡 Mientras carga, muestra "Cargando..."
 	if (isLoading) {
 		return (
 			<motion.div className="loading-container">
@@ -40,7 +38,6 @@ function App() {
 		)
 	}
 
-	// 🟢 Muestra el botón "Continuar" antes de mostrar el contenido
 	return (
 		<AnimatePresence>
 			{!showContent && (
@@ -73,7 +70,6 @@ function App() {
 					<Modal />
 					<AudioPlayer audioRef={audioRef} />
 
-					{/* Video de fondo único */}
 					<video autoPlay loop muted playsInline className="background-video-cuando">
 						<source src={videoGlitter} type="video/mp4" />
 					</video>
