@@ -118,7 +118,7 @@ export const Donde = () => {
 			</motion.div>
 
 			<motion.div id="containerMapa" ref={mapRef} initial="hidden" animate={isMapInView ? "visible" : "hidden"} variants={mapVariants}>
-				<MapContainer center={position} zoom={18} id="mapa" dragging={false} touchZoom={true}>
+				<MapContainer center={position} zoom={17} id="mapa" dragging={false} touchZoom={true}>
 					<TileLayer attribution="Utiliza dos dedos para mover el mapa" url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 					<Marker position={position} icon={customIcon}>
 						<Popup permanent closeButton={false}>
@@ -132,7 +132,7 @@ export const Donde = () => {
 
 				<motion.div className="btnGoogleMaps" variants={buttonVariants} whileHover="hover" whileTap={{ scale: 0.95 }}>
 					<a href="https://maps.app.goo.gl/Vkrm9Q9WgTjezym8A" className="urlBtnGoogleMaps">
-						ABRIR UBICACIÓN EN GOOGLE MAPS{" "}
+						COMO LLEGAR CON GOOGLE MAPS{" "}
 						<svg height="25" viewBox="14.32 4.87961494 37.85626587 52.79038506" xmlns="http://www.w3.org/2000/svg">
 							<path d="m37.34 7.82c-1.68-.53-3.48-.82-5.34-.82-5.43 0-10.29 2.45-13.54 6.31l8.35 7.02z" fill="#1a73e8" />
 							<path d="m18.46 13.31a17.615 17.615 0 0 0 -4.14 11.36c0 3.32.66 6.02 1.75 8.43l10.74-12.77z" fill="#ea4335" />

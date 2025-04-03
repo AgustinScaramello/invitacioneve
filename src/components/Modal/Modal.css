@@ -1,0 +1,58 @@
+.containerModalRegalo {
+	background-color: black;
+	border: 2px solid var(--colorclaro);
+}
+
+.modal-header,
+.modal-footer,
+.modal-body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.modal-body {
+	font-size: 18px;
+}
+
+.closeModal {
+	background-color: transparent;
+	height: 40px;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	text-decoration: none;
+	color: var(--colorclaro);
+	font-size: 15px;
+	border: 3px solid var(--colorclaro);
+}
+
+.iconCopy {
+	height: 20px;
+	margin-left: 15px;
+}
+
+.heartbeat {
+	animation: heartbeat 2.5s infinite ease-in-out;
+}
+
+@keyframes heartbeat {
+	0% {
+		transform: scale(1);
+	}
+	30% {
+		transform: scale(1.18);
+	}
+	50% {
+		transform: scale(1);
+	}
+	70% {
+		transform: scale(1.18);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
