@@ -67,7 +67,7 @@ export const Asistencia = () => {
 			<div className="containerBotonesAsistencia animation-container">
 				<a
 					className="containerbtnAsistencia animate-item btn-asistire"
-					href="https://wa.me/1138978533?text=💖✨ ¡Hola, Eve! ✨💖%0A%0AQuería decirte que estoy súper emocionad@ de celebrar este día tan especial contigo 🥳🎂🌸. ¡Confirmo mi asistencia a tu fiesta de 15! 🎉💃💫%0A%0A¡Seguro va a ser una noche mágica llena de alegría, risas y mucho baile! 💖🎶 Nos vemos prontito para festejar juntos 🥂🎊.%0A%0A¡Un beso enorme! 😘🌟%0A%0AAsistiremos:%0A✍️ [Escribir los nombres y apellidos de quienes asistirán]"
+					href="https://wa.me/1138978533?text=%C2%A1Hola%2C%20Eve!%0A%0AQuer%C3%ADa%20decirte%20que%20estoy%20s%C3%BAper%20emocionad%40%20de%20celebrar%20este%20d%C3%ADa%20tan%20especial%20contigo.%20%C2%A1Confirmo%20mi%20asistencia%20a%20tu%20fiesta%20de%2015!%0A%0A%C2%A1Seguro%20va%20a%20ser%20una%20noche%20m%C3%A1gica%20llena%20de%20alegr%C3%ADa%2C%20risas%20y%20mucho%20baile!%20Nos%20vemos%20prontito%20para%20festejar%20juntos.%0A%0A%C2%A1Un%20beso%20enorme!%0A%0AAsistiremos%3A%0A%5BEscribir%20los%20nombres%20y%20apellidos%20de%20quienes%20asistir%C3%A1n%5D"
 					target="_blank"
 				>
 					🎉 SI CONFIRMO 🎉
