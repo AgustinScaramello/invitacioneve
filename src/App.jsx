@@ -83,7 +83,7 @@ function App() {
 					</ParallaxSection>
 
 					<ParallaxSection id="donde">
-						<Donde />
+						<Donde audioRef={audioRef} />
 					</ParallaxSection>
 
 					<ParallaxSection id="regalo">
@@ -91,7 +91,7 @@ function App() {
 					</ParallaxSection>
 
 					<ParallaxSection id="asistencia">
-						<Asistencia />
+						<Asistencia audioRef={audioRef} />
 					</ParallaxSection>
 				</div>
 			)}
