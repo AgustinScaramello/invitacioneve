@@ -1,0 +1,22 @@
+.containerScrollear{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2000000000;
+    padding: 2rem;
+}
+
+.scrollear{
+    width: 40px;
+    animation: bounce 1.5s infinite ease-in-out;
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
