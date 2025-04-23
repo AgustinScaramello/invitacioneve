@@ -28,6 +28,7 @@
 
 .horaDonde {
 	font-size: 19px;
+	text-align: center;
 }
 
 #containerMapa {
@@ -40,10 +41,10 @@
 }
 
 #mapa {
-	height: 80%;
+	height: 76%;
 	width: 85%;
-	border-radius: 20px;
-	border: 3px solid var(--colorverde1);
+	border-radius: 25px;
+	border: 5px solid var(--colorverde1);
 }
 
 .leaflet-layer {
@@ -61,6 +62,7 @@
 
 .palabrasPopup {
 	margin: 0 !important;
+	text-shadow: none;
 }
 
 .palabrasPopupBold {
@@ -68,12 +70,12 @@
 }
 
 .btnGoogleMaps {
+	margin-top: 30px;
 	width: 85%;
 	height: 65px;
 	background-color: var(--colorverde1);
-	border-radius: 0 0 20px 20px;
+	border-radius: 30px;
 	position: relative;
-	top: -15px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -82,6 +84,5 @@
 .urlBtnGoogleMaps {
 	text-decoration: none;
 	color: var(--colorclaro);
-	margin-top: 15px;
 	text-shadow: none;
 }

@@ -21,7 +21,7 @@ body::before {
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	background-image: url("./utils/fotoEve1.jpg");
+	background-image: url("./assets/fotoEve1.jpg");
 	background-size: cover;
 	background-position: center;
 	filter: blur(10px);
@@ -104,26 +104,7 @@ html {
 	width: 100%;
 	background-color: #000;
 	font-size: 30px;
-	background-image: url("./utils//fondo1.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 999;
-}
-
-.loading-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	width: 100%;
-	background-color: #000;
-	font-size: 30px;
-	background-image: url("./utils//fondo1.jpg");
+	background-image: url("./assets//fondo1.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -134,6 +115,13 @@ html {
 	overflow: hidden;
 	text-shadow: 1px 1px 6px #0000007d;
 	filter: drop-shadow(0px 1px 4px #0000003b);
+	text-align: center;
+	line-height: 30px;
+}
+
+.mensajeReprogramado {
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .continue-button {
@@ -156,4 +144,48 @@ html {
 .continue-button:hover {
 	background-color: #a7c957;
 	transform: scale(1.1);
+}
+
+.modalDesliza {
+	background-color: transparent;
+	color: white;
+	z-index: 40000000000000000;
+	height: 100%;
+}
+
+.swal2-html-container {
+	height: 100%;
+	display: flex !important;
+	flex-direction: column;
+	align-items: center;
+	padding: 0;
+}
+
+.swal2-container {
+	z-index: 400000000000000000000;
+	background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.fuenteModalDesliza {
+	font-size: 30px;
+}
+
+.containerScrollear {
+	z-index: 2000000000;
+	padding: 1rem;
+}
+
+.scrollear {
+	width: 100px;
+	animation: bounce 1.5s infinite ease-in-out;
+}
+
+@keyframes bounce {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(50px);
+	}
 }

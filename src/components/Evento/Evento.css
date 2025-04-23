@@ -1,21 +1,21 @@
-#containerEventoFondo {
-	background-image: url("../../utils/fotoEve.png");
+/* #containerEventoFondo {
+	background-image: url("../../assets/fotoEve.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-}
+} */
 
-#containerEventoFondoSinFondo {
-	background-image: url("../../utils/fotoEveSinFondo.png");
+/* #containerEventoFondoSinFondo {
+	background-image: url("../../assets/fotoEveSinFondo.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	position: absolute;
 	z-index: 1000000;
-	filter: brightness(65%); /* Reduce el brillo */
+	filter: brightness(65%);
 	height: 100vh;
 	width: 100vw;
-}
+} */
 
 .background-video {
 	position: absolute;
@@ -25,7 +25,6 @@
 	width: 100vw;
 	height: 100vh;
 	object-fit: cover;
-	opacity: 0.5;
 }
 
 #containerEvento {

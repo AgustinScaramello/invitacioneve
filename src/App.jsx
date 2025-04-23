@@ -5,14 +5,14 @@ import { Cuando } from "./components/Cuando/Cuando"
 import { Donde } from "./components/Donde/Donde"
 import { Evento } from "./components/Evento/Evento"
 import ParallaxSection from "./utils/ParallaxSection"
-import videoGlitter from "./utils/videoGlitter1.mp4"
+import videoGlitter from "./assets/videoGlitter1.mp4"
 
 import "leaflet/dist/leaflet.css"
 import "./index.css"
 import { AudioPlayer } from "./components/AudioPlayer/AudioPlayer"
 import { Regalo } from "./components/Regalo/Regalo"
 import { Modal } from "./components/Modal/Modal"
-import cancion from "./utils/cancion.mp3"
+import cancion from "./assets/cancion.mp3"
 
 function App() {
 	const [isLoading, setIsLoading] = useState(true)
@@ -49,7 +49,7 @@ function App() {
 					transition={{ duration: 1, ease: "easeOut" }}
 				>
 					<motion.p initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
-						!INVITACIÓN XV EVELIN!
+						!INVITACIÓN XV EVELIN! <br /> <span className="mensajeReprogramado">REPROGRAMADO, NUEVA FECHA Y LUGAR</span>
 					</motion.p>
 					<motion.button
 						className="continue-button"
